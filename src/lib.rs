@@ -2,6 +2,7 @@
 
 pub mod requests;
 pub mod request_args;
+pub mod types;
 
 
 pub trait ProtocolMessage {
