@@ -1,6 +1,6 @@
 use serde_json::Value;
 
-use crate::{Number, Source};
+use crate::{Number, types};
 
 
 ///
@@ -21,7 +21,7 @@ pub struct AttachArgs {
 pub struct BreakpointLocationsArgs {
     /// The source location of the breakpoints; either `source.path` or
     /// `source.reference` must be specified.
-    source: Source,
+    source: types::Source,
 
     /// Start line of range to search possible breakpoint locations in. If only the
     /// line is specified, the request returns all possible locations in that line.

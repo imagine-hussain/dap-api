@@ -22,6 +22,3 @@ pub enum Number {
     Int(i64),
     Float(f64),
 }
-
-// TODO:
-type Source = ();

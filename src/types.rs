@@ -1,84 +1,69 @@
+pub struct Breakpoint {}
 
-pub struct Requests {}
+pub struct BreakpointLocation {}
 
-pub struct Attach {}
+pub struct Capabilities {}
 
-pub struct BreakpointLocations {}
+pub struct Checksum {}
 
-pub struct Completions {}
+pub struct ChecksumAlgorithm {}
 
-pub struct ConfigurationDone {}
+pub struct ColumnDescriptor {}
 
-pub struct Continue {}
+pub struct CompletionItem {}
 
-pub struct DataBreakpointInfo {}
+pub struct CompletionItemType {}
 
-pub struct Disassemble {}
+pub struct DataBreakpoint {}
 
-pub struct Disconnect {}
+pub struct DataBreakpointAccessType {}
 
-pub struct Evaluate {}
+pub struct DisassembledInstruction {}
 
-pub struct ExceptionInfo {}
+pub struct ExceptionBreakMode {}
 
-pub struct Goto {}
+pub struct ExceptionBreakpointsFilter {}
 
-pub struct GotoTargets {}
+pub struct ExceptionDetails {}
 
-pub struct Initialize {}
+pub struct ExceptionFilterOptions {}
 
-pub struct Launch {}
+pub struct ExceptionOptions {}
 
-pub struct LoadedSources {}
+pub struct ExceptionPathSegment {}
 
-pub struct Modules {}
+pub struct FunctionBreakpoint {}
 
-pub struct Next {}
+pub struct GotoTarget {}
 
-pub struct Pause {}
+pub struct InstructionBreakpoint {}
 
-pub struct ReadMemory {}
+pub struct InvalidatedAreas {}
 
-pub struct Restart {}
+pub struct Message {}
 
-pub struct RestartFrame {}
+pub struct Module {}
 
-pub struct ReverseContinue {}
+pub struct ModulesViewDescriptor {}
 
-pub struct Scopes {}
-
-pub struct SetBreakpoints {}
-
-pub struct SetDataBreakpoints {}
-
-pub struct SetExceptionBreakpoints {}
-
-pub struct SetExpression {}
-
-pub struct SetFunctionBreakpoints {}
-
-pub struct SetInstructionBreakpoints {}
-
-pub struct SetVariable {}
+pub struct Scope {}
 
 pub struct Source {}
 
-pub struct StackTrace {}
+pub struct SourceBreakpoint {}
 
-pub struct StepBack {}
+pub struct StackFrame {}
 
-pub struct StepIn {}
+pub struct StackFrameFormat {}
 
-pub struct StepInTargets {}
+pub struct StepInTarget {}
 
-pub struct StepOut {}
+pub struct SteppingGranularity {}
 
-pub struct Terminate {}
+pub struct Thread {}
 
-pub struct TerminateThreads {}
+pub struct ValueFormat {}
 
-pub struct Threads {}
+pub struct Variable {}
 
-pub struct Variables {}
-
-pub struct WriteMemory {}
+pub struct VariablePresentationHint {}
