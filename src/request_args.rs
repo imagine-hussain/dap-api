@@ -1,3 +1,5 @@
+use serde_json::Value;
+
 use crate::{Number, Source};
 
 
@@ -8,7 +10,7 @@ pub struct AttachArgs {
     /// The client should leave the data intact.
     /// 
     /// Should be json (eventually :P)
-    __restart: Option<String>,
+    __restart: Option<Value>,
 }
 
 /// The breakpointLocations request returns all possible locations for source
